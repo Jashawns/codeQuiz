@@ -10,6 +10,8 @@ The game conclues when you run out of time or reach the end of the 10 questions.
 
 ## Deployed Link
 
+https://jashawns.github.io/codeQuiz/
+
 
 ## User Story
 
