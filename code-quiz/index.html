@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="assets/css/script.css">
+		<title>Code-Quiz</title>
+	</head>
+	<body>
+		<div id="top">
+<!-- Timer -->
+			<div class="cdisplay">
+				<h4>Time: <span id="shotClock">0</span></h4>
+			</div>
+		</div>
+<!-- Sub-Heading -->
+		<div id="opening">
+            <div id="quizContent">      
+                <h1>   
+                    Take Your Shot Code-Quiz!
+                </h1>
+                <h2>
+					🧐 Let's Play🧐 
+                </h2>
+<!-- Start Button -->
+                <button onclick="start()">Begin MVP Test</button>
+            </div>
+			<!-- Manual Entry of Scores -->
+			<div class="card">
+				<h1>Scoreboard</h1>
+				<form id="high-form" method="POST">
+				  <label for="high-text">😲Highscore😲 : </label>
+				  <input type="text" placeholder="Name and Score" name="high-text" id="high-text" />Press Enter
+				</form>
+				<p>Number of Scores Captured: <span id="high-count">0</span></p>
+				<ul id="high-list"></ul>
+        </div>
+      <script src="assets/js/script.js"></script>	  
+	</body>
+</html>
