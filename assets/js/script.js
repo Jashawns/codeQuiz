@@ -220,7 +220,7 @@ next();
 
 //10 points for correct answers
 function correct() {
-score += 10;
+score = score + 10;
 next();
 }
 
@@ -243,7 +243,7 @@ for (var buttonLoop = 0; buttonLoop < timedtester[currentQuestion].multiplechoic
     } else {
         buttonCode = buttonCode.replace("[]", "incorrect()");
     }
-    quizContent += buttonCode
+    quizContent = quizContent + buttonCode
 }
 
 document.getElementById("quizContent").innerHTML = quizContent;
