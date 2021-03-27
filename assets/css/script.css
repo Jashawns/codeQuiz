@@ -36,14 +36,15 @@ button {
     background-color: #d11508;
     color: white;
     border-radius: 5px;
-    padding: 10px 16px 10px 16px;
+    padding: 15px 30px 15px 30px;
     font-size: 20px;
     font-family: 'Fantasy', copperplate;
     margin: 4px;
 }
 
 button:hover {
-    background-color: #00b809;
+  font-size: 30px; 
+  background-color: #00b809;
 }
 
 .card {
